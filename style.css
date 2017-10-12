@@ -1,8 +1,8 @@
 body{
   background: rgb(245,245,245);
-  color: green;
+  color: black;
   font-size: 10px;
-  font-family: Helvetica;
+  font-family: Roboto;
   text-align: center;
 }
 h1{
@@ -14,7 +14,7 @@ h1{
 }
 h2 {
   font-family: Courier;
-  color: pink;
+  color: brown;
   font-weight: bolder;
   font-size: 20px;
 }
