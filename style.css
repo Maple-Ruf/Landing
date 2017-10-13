@@ -1,7 +1,7 @@
 body{
   background: rgb(245,245,245);
   color: black;
-  font-size: 10px;
+  font-size: 15px;
   font-family: Roboto;
   text-align: center;
 }
@@ -13,10 +13,10 @@ h1{
   font-size: 25px;
 }
 h2 {
-  font-family: Courier;
+  font-family: Roboto;
   color: brown;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 25px;
 }
 a {
 	text-align: center;
@@ -32,21 +32,28 @@ a:hover {
 
 #banner{
   text-align: center;
-  background-image: url("https://unsplash.com/photos/qLW70Aoo8BE");
+  background-image: url(https://images.unsplash.com/photo-1453791052107-5c843da62d97?dpr=1&auto=compress,format&fit=crop&w=2550&h=&q=80&cs=tinysrgb&crop=);
   background-size: cover;
   padding: 150px;
   color: white;
   text-shadow: 1px 1px 5px black;
 }
-#banner h1 {
-  color: white;
-  font-size: 50px;
+
+#banner h1{
+color: white;
+font-size: 50px;
+font-weight: bolder;
+text-shadow: 1px 1px 5px black;
+padding-top: 30px;
 }
+
 #banner p {
   color: white;
   opacity: 0.8;
   font-size: 30px;
   font-weight: lighter;
+  text-shadow: 1px 1px 5px black;
+  padding-bottom: 40px
 }
 
 #footer{
@@ -57,6 +64,12 @@ a:hover {
 .card{
   padding: 50px;
   font-weight: lighter;
+}
+
+.cta {
+
+  background-color: rgb(220, 220, 220);
+  padding: 50px;
 }
 
 #footer a {
