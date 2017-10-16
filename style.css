@@ -72,6 +72,11 @@ padding-top: 30px;
   padding: 50px;
 }
 
+.container{
+
+  width: 100%;
+}
+
 #footer a {
   color: lightgrey;
   font-size: 25px;
